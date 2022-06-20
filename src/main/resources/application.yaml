@@ -1,0 +1,10 @@
+spring:
+  mongodb:
+    embedded:
+      version: 5.0.6
+  data:
+    mongodb:
+      uuid-representation: standard
+logging:
+  logger:
+    org.springframework.web: DEBUG
